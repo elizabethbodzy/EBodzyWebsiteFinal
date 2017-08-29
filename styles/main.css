@@ -1,4 +1,4 @@
-#my-theme .mdl-layout__header {
+/*#my-theme .mdl-layout__header {
 	background-color: white;
 	color: grey;
 	box-shadow: none;
@@ -16,15 +16,16 @@
 	margin-right: 30px;
 	padding: 10px;
 	text-decoration: none;
-
-
 }
 
+#my-theme .mdl-layout__container {
+	position: none;
+}*/
 
 .background-img {
 	width: 100%;
 	opacity: 0.3;
-	padding-top: 55px;
+/*	padding-top: 55px;*/
 	/*position: relative;*/
 }
 
@@ -66,6 +67,13 @@
 	/*min-height: 400px;*/
 }
 
+.col-one-third {
+	flex: 0 0 33.3333%;
+	box-sizing: border-box;
+	/*border: 1px solid black;
+	min-height: 300px;*/
+}
+
 .footer {
 	text-transform: uppercase;
 	font-size: 15px;
@@ -85,7 +93,7 @@
 	color: #5C1B57;
 	position: absolute;
     left: 0;
-    top: 50%;
+    top: 58%;
     width: 100%;
     text-align: center;
     
@@ -100,18 +108,21 @@
 	color: #5491A9;
 	position: absolute;
     left: 0;
-    top: 60%;
+    top: 70%;
     width: 100%;
     text-align: center;
+
+
+
 }
 
 .thesis-img {
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	/*padding-left: 80px;
 	padding-right: 60px;*/
-	padding-top: 50px;
-	margin-top: 40px;
+	/*padding-top: 50px;*/
+	/*margin-top: 40px;*/
 	padding-bottom: 20px;
 }
 
@@ -126,10 +137,14 @@
 .resume {
 	width: 100px;
 	height: 100px;
-	margin-left: 200px;
+	margin-left: 270px;
 	margin-bottom: 20px;
 
 	/*padding-left: 60px;*/
+}
+
+.percent {
+	padding-left: 20px;
 }
 
 .skills {
@@ -143,8 +158,9 @@
 }
 
 .my-skills-container {
-	padding-left: 60px;
-	padding-right: 60px;
+	/*margin-left: 30px;*/
+	padding-left: 100px;
+	padding-right: 20px;
 }
 
 .progress-bar {
@@ -182,7 +198,7 @@
 }
 
 .resources {
-	padding-left: 150px;
+	padding-left: 175px;
 	font-family: freight-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -190,13 +206,21 @@
 	text-transform: uppercase;
 }
 
+.padding-extra{
+	padding-left: 200px;
+}
+
 .social {
 	width: 30px;
 	height: 30px;
-	margin-left: 150px;
+	margin-left: 180px;
 
 
 }
+
+/*.adjust {
+	margin-left: 20px;
+}*/
 
 .social-text {
 	display: inline-block;
@@ -204,17 +228,20 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
-	padding-left: 20px;
+	padding-left: 40px;
 }
 
 .phone {
 	width: 100px;
 	height: 100px;
+	margin-left: 390px;
+	padding-bottom: 40px;
 }
 
 .mail {
 	width: 80px;
 	height: 50px;
+	margin-left: 400px;
 }
 
 .contact-detail {
@@ -225,9 +252,162 @@
 
 }
 
-.chat {
-	position: none;
+.number {
+	padding-top: 10px;
+	color: #5C1B57;
 }
 
+.email {
+	padding-top: -10px;
+	color: #5C1B57;
+}
+
+.chat {
+	margin-top: 100px;
+	text-align: center;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	color: #5C1B57;
+}
+
+.me {
+	/*margin-top: 90px;*/
+	/*display: inline-block;*/
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	color: #5C1B57;
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    margin-top: 40px;
+    /*margin-top: 30px;*/
+    /*margin-bottom: 0;*/
+    /*column-gap: 0.2em;*/
+
+}
+
+.item { /* Masonry bricks or child elements */
+    /*background-color: #eee;*/
+    display: inline-block;
+    margin: 0 0 0.4em;
+    width: 100%;
+    box-sizing: border-box;
+
+    border: 1px solid grey;
+
+}
+
+.img-size {
+	width: 80%;
+	margin-left: 1.5em;
+}
+
+.img-size-small {
+	width: 60%;
+	margin-left: 3.3em;
+}
+
+.img-size-large {
+	width: 100%;
+}
+
+
+.slick-slide img{
+	width: 500px;
+	height: 400px;
+	margin-left: 300px;
+}
+
+.nav {
+	display: inline-block;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #5C1B57;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	position: relative;
+	/*padding-left: 30px;*/
+	padding-top: 20px;
+	margin-left: 40px;
+	z-index: 1;
+	/*padding-bottom: 60px;*/
+
+}
+
+.nav-project {
+	padding-bottom: 80px;
+}
+
+a {
+	text-decoration: none;
+	color: #5C1B57;
+}
+
+
+.portfolio-section {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	padding-right: 30px;
+
+
+}
+
+.sections {
+	text-align: center;
+
+}
+
+.logo-home {
+	width: 400px;
+	height: 400px;
+	opacity: 0.5;
+	margin-left: 340px;
+	padding-bottom: 170px;
+
+}
+
+.project {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.project-description {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.slideshow {
+	padding-top: 120px;
+}
+
+.city {
+	width: 60%;
+	margin-left: 223px;
+}
 
 
