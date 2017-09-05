@@ -76,7 +76,7 @@
 
 }
 
-.footer {
+footer {
 	text-transform: uppercase;
 	font-size: 15px;
 	text-align: center;
@@ -93,11 +93,9 @@
 	font-weight: 600;
 	font-size: 60px;
 	color: #5C1B57;
-	position: absolute;
-    left: 0;
-    top: 58%;
-    width: 100%;
     text-align: center;
+    top: 20%;
+
     
 
 }
@@ -108,10 +106,6 @@
 	font-weight: 300;
 	font-size: 30px;
 	color: #5491A9;
-	position: absolute;
-    left: 0;
-    top: 70%;
-    width: 100%;
     text-align: center;
 
 
@@ -120,7 +114,7 @@
 
 .thesis-img {
 	width: 100%;
-	height: 700px;
+	/*height: 700px;*/
 	/*padding-left: 80px;
 	padding-right: 60px;*/
 	/*padding-top: 50px;*/
@@ -139,15 +133,13 @@
 .resume {
 	width: 100px;
 	height: 100px;
-	margin-left: 270px;
+	margin-left: 230px;
 	margin-bottom: 20px;
 
 	/*padding-left: 60px;*/
 }
 
-.percent {
-	padding-left: 20px;
-}
+
 
 .skills {
 	font-family: freight-sans-pro, sans-serif;
@@ -162,7 +154,7 @@
 .my-skills-container {
 	/*margin-left: 30px;*/
 	padding-left: 100px;
-	padding-right: 20px;
+	padding-right: 70px;
 }
 
 
@@ -173,17 +165,19 @@
 	font-weight: 300;
 	font-size: 10px;
 	text-transform: uppercase;
-	margin-left: 110px;
+	/*margin-left: 110px;*/
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .resources {
-	padding-left: 175px;
+	/*padding-left: 175px;*/
 	font-family: freight-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .padding-extra{
@@ -208,21 +202,19 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 }
 
 .phone {
 	width: 100px;
 	height: 100px;
-	margin-left: 390px;
-	padding-bottom: 40px;
+	margin-right: 10px;
 }
 
 .mail {
 	width: 80px;
-	height: 50px;
-	margin-left: 400px;
-	padding-bottom: 170px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .contact-detail {
@@ -234,8 +226,8 @@
 }
 
 .number {
-	padding-top: 10px;
-	color: #5C1B57;
+	align-self: center;
+    margin: 0;
 }
 
 .email {
@@ -360,12 +352,9 @@ a {
 }
 
 .logo-home {
-	width: 400px;
-	height: 400px;
+	width: 40%;
 	opacity: 0.5;
-	margin-left: 340px;
-	padding-bottom: 170px;
-
+	margin-left: 320px;
 }
 
 .project {
@@ -489,4 +478,101 @@ span {
 	padding: 4px;
     background-color: var(--color);
     width: var(--width);
+    font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.contact-row {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.contact-row-half {
+	flex: 0 0 50%;
+}
+
+.contact-row-right {
+	text-align: right;
+}
+
+.icon-wrapper {
+	margin-right: 10px;
+	display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+
+.fa-facebook {
+	margin-left: 90px;
+}
+
+.fa-instagram {
+	margin-left: 90px;
+}
+
+.fa-linkedin {
+	margin-left: 90px;
+}
+
+.icon-wrapper {
+	margin-left: 50px;
+}
+
+@media all and (max-width: 1248px) {
+	.nav {
+		margin-left: 20px;
+	}
+}
+
+@media all and (max-width: 1088px) {
+	.nav {
+		margin-left: 10px;
+	}
+}
+
+@media all and (max-width: 1008px) {
+	.nav {
+		margin-left: 5px;
+	}
+}
+
+@media all and (max-width: 978px) {
+	.nav {
+		margin-left: 5px;
+	}
+}
+
+@media all and (max-width: 968px) {
+	.nav {
+		margin-left: 0px;
+	}
+}
+
+@media all and (max-width: 928px) {
+	.nav {
+		margin-left: -5px;
+	}
+}
+@media all and (max-width: 888px) {
+	.nav {
+		margin-left: -10px;
+	}
+}
+
+@media all and (max-width: 848px) {
+	.nav {
+		margin-left: -15px;
+	}
+}
+@media all and (max-width: 817px) {
+	.col-half {
+		flex: 0 0 100%;
+	}
+
 }
