@@ -370,6 +370,35 @@ span {
 	margin-left: 50px;
 }
 
+.coming-soon {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #5C1B57;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.shop-description {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 60px;
+
+}
+
+.logo-shop {
+	width: 20%;
+	opacity: 0.5;
+	margin-left: 440px;
+	margin-top: 100px;
+
+}
+
 @media all and (max-width: 1248px) {
 	.nav {
 		margin-left: 20px;
